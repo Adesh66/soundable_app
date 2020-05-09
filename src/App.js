@@ -19,7 +19,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className='main-app-container'>
         <div className='title-container'>
           <h1>The Music App</h1>
           <div className='subtitle'>
