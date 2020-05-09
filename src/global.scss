@@ -1,0 +1,104 @@
+body {
+  background-color: #f9fbfd;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif !important;
+
+  .title-container {
+    min-height: 80px;
+    padding: 0 10px;
+
+    h1 {
+      font-size: 1.5rem;
+      color: #121212;
+      position: relative;
+      text-align: center;
+      font-weight: 600;
+      padding: 7px 0;
+      margin: 0px;
+    }
+
+    .subtitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 0 10px 0;
+
+      span {
+        font-size: 0.75rem;
+        color: #121212;
+        position: relative;
+        text-align: center;
+        font-weight: 600;
+
+        &+div {
+          margin: 0px 0px 0px 10px !important;
+        }
+      }
+    }
+  }
+
+
+  .music-box-container {
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 80px);
+
+    .buble-animation {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      pointer-events: none;
+      width: 50%;
+      height: 25%;
+    }
+
+    .card {
+      cursor: pointer;
+      width: 50%;
+      flex: 1 1 auto;
+
+      &:active {
+        opacity: 0.8;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &.path1 {
+        background-color: #41d5e2;
+      }
+
+      &.path2 {
+        background-color: #1b1b4b;
+      }
+
+
+      &.path3 {
+        background-color: #4d53e0;
+      }
+
+      &.path4 {
+        background-color: #ff6776;
+      }
+
+      &.path5 {
+        background-color: #463068;
+      }
+
+      &.path6 {
+        background-color: #e6dcff;
+      }
+
+      &.path7 {
+        background-color: #ff8e36;
+      }
+
+      &.path8 {
+        background-color: #393963;
+      }
+    }
+  }
+}

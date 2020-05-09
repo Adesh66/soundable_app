@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Cards from './components/Cards';
+import drum from './lotties/drum.json';
+import Lottie from 'react-lottie';
+class App extends Component {
+  constructor(props) {
+    super(props);
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    this.state = {};
+    this.drumOption = {
+      loop: true,
+      autoplay: true,
+      animationData: drum,
+      rendererSettings: {
+        preserveAspectRatio: 'xMidYMid slice',
+      },
+    };
+  }
+
+  render() {
+    return (
+      <div>
+        <div className='title-container'>
+          <h1>The Music App</h1>
+          <div className='subtitle'>
+            <span>Press the boxes to enjoy the Awesome beat</span>
+            <Lottie options={this.drumOption} width={20} height={20} />
+          </div>
+        </div>
+        <>
+          <Cards />
+        </>
+      </div>
+    );
+  }
 }
 
 export default App;
