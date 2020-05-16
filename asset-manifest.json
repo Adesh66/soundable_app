@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/soundable_app/static/css/main.034bd96e.chunk.css",
-    "main.js": "/soundable_app/static/js/main.49753186.chunk.js",
-    "main.js.map": "/soundable_app/static/js/main.49753186.chunk.js.map",
+    "main.css": "/soundable_app/static/css/main.910bd0f1.chunk.css",
+    "main.js": "/soundable_app/static/js/main.7c17da7c.chunk.js",
+    "main.js.map": "/soundable_app/static/js/main.7c17da7c.chunk.js.map",
     "runtime-main.js": "/soundable_app/static/js/runtime-main.8714222a.js",
     "runtime-main.js.map": "/soundable_app/static/js/runtime-main.8714222a.js.map",
-    "static/js/2.971bc107.chunk.js": "/soundable_app/static/js/2.971bc107.chunk.js",
-    "static/js/2.971bc107.chunk.js.map": "/soundable_app/static/js/2.971bc107.chunk.js.map",
+    "static/js/2.7ed195c5.chunk.js": "/soundable_app/static/js/2.7ed195c5.chunk.js",
+    "static/js/2.7ed195c5.chunk.js.map": "/soundable_app/static/js/2.7ed195c5.chunk.js.map",
     "index.html": "/soundable_app/index.html",
-    "precache-manifest.f0a6f9b5dd374edd414a486322477bfd.js": "/soundable_app/precache-manifest.f0a6f9b5dd374edd414a486322477bfd.js",
+    "precache-manifest.0729074cb35ddf339c0fa7a7b1b5c66f.js": "/soundable_app/precache-manifest.0729074cb35ddf339c0fa7a7b1b5c66f.js",
     "service-worker.js": "/soundable_app/service-worker.js",
-    "static/css/main.034bd96e.chunk.css.map": "/soundable_app/static/css/main.034bd96e.chunk.css.map",
-    "static/js/2.971bc107.chunk.js.LICENSE.txt": "/soundable_app/static/js/2.971bc107.chunk.js.LICENSE.txt",
+    "static/css/main.910bd0f1.chunk.css.map": "/soundable_app/static/css/main.910bd0f1.chunk.css.map",
+    "static/js/2.7ed195c5.chunk.js.LICENSE.txt": "/soundable_app/static/js/2.7ed195c5.chunk.js.LICENSE.txt",
     "static/media/bubbles.mp3": "/soundable_app/static/media/bubbles.4663c752.mp3",
     "static/media/clay.mp3": "/soundable_app/static/media/clay.f989b24a.mp3",
     "static/media/confetti.mp3": "/soundable_app/static/media/confetti.e56a0699.mp3",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8714222a.js",
-    "static/js/2.971bc107.chunk.js",
-    "static/css/main.034bd96e.chunk.css",
-    "static/js/main.49753186.chunk.js"
+    "static/js/2.7ed195c5.chunk.js",
+    "static/css/main.910bd0f1.chunk.css",
+    "static/js/main.7c17da7c.chunk.js"
   ]
 }

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d7cba7d7d4371eae55580c1ce46ad67",
+    "revision": "a63bb1754f3fa15bf1730df7c429c270",
     "url": "/soundable_app/index.html"
   },
   {
-    "revision": "e0dd3f572cbedc54c814",
-    "url": "/soundable_app/static/css/main.034bd96e.chunk.css"
+    "revision": "aa7d97e6175588f8f6c1",
+    "url": "/soundable_app/static/css/main.910bd0f1.chunk.css"
   },
   {
-    "revision": "16f3173267698b38d686",
-    "url": "/soundable_app/static/js/2.971bc107.chunk.js"
+    "revision": "43e6d89ec99d73670f7f",
+    "url": "/soundable_app/static/js/2.7ed195c5.chunk.js"
   },
   {
     "revision": "b9941b26ce7f87a25d1a3bc0d5ae97bc",
-    "url": "/soundable_app/static/js/2.971bc107.chunk.js.LICENSE.txt"
+    "url": "/soundable_app/static/js/2.7ed195c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e0dd3f572cbedc54c814",
-    "url": "/soundable_app/static/js/main.49753186.chunk.js"
+    "revision": "aa7d97e6175588f8f6c1",
+    "url": "/soundable_app/static/js/main.7c17da7c.chunk.js"
   },
   {
     "revision": "538d272e9f15fcdbbe06",

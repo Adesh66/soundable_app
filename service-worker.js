@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/soundable_app/precache-manifest.f0a6f9b5dd374edd414a486322477bfd.js"
+  "/soundable_app/precache-manifest.0729074cb35ddf339c0fa7a7b1b5c66f.js"
 );
 
 self.addEventListener('message', (event) => {
